@@ -1,6 +1,5 @@
 {
-    "editor.codeActionsOnSave": {
- 
-    "source.organizeImports": false
-}
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never"
+  }
 }
