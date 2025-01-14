@@ -1,5 +1,14 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "never"
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
+      },
+
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
+
 }
