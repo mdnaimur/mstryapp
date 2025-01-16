@@ -9,6 +9,29 @@
 
   "[typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+
+    "editor.fontFamily": "'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 22,
+    "editor.letterSpacing": 0.5,
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "variable.language",
+            "keyword",
+            "entity.name.function",
+            "storage.modifier"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    }
+
 
 }
