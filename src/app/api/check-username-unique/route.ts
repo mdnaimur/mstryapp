@@ -61,7 +61,7 @@ export async function GET(request: Request) {
 
         return Response.json({
             success: true,
-            message: "Username availavle ",
+            message: "Username availavle",
         }, {
             status: 201
         })
